@@ -15,7 +15,7 @@ function App() {
 
   const registerEmployee = () => {
     axios
-      .post("http://localhost:3001/register", {
+      .post("https://csc174-deliverable3-backend.herokuapp.com/register", {
         empID: empID,
         firstName: firstName,
         lastName: lastName,
